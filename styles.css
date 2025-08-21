@@ -1,2 +1,78 @@
 
 /* Your CSS Code here. */
+
+body {
+	padding: 0;
+	margin: 0;
+   font-family: "Open Sans", Arial, sans-serif;
+	background-color: skyblue;
+}
+
+header {
+	background: lightblue;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+}
+header h1 {
+	margin: 20px;
+	font-size: 30px;
+	color: rgb(106, 90, 205);
+}
+header p {
+	font-style: italic;
+}
+
+nav {
+background: #0f3460;
+  padding: 1em 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 2em;
+}
+nav a {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.5s;
+}
+nav a:hover {
+  color: #e94560;
+}
+
+	main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 2em 10vw 2em 10vw;
+}
+section, aside {
+  background: #16213e;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  padding: 1.5em;
+  margin-bottom: 2em;
+  flex: 1 1 350px;
+}
+#summary {
+  flex-basis: 100%;
+}
+aside {
+  max-width: 250px;
+  background: #0f3460;
+  color: #e0e0e0;
+}
+footer {
+  background: #16213e;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.1em;
+  border-top: 3px solid #0f3460;
+}
